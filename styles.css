@@ -73,12 +73,11 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     padding-right: 50px;
     padding-bottom: 24px;
 }
-.hero-main-img {
-    padding-right: 200px;
-}
-.hero-main-img img {
-    width: 400px;
+
+.hero-main img {
+    width: 900px;
     height: auto;
+    padding-right: 200px;
 }
 .hero-main-btn {
     background-color: #3882F6;
@@ -98,7 +97,13 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     text-align: center;
     padding: 20px 0;
 }
-.img-container {
+.img-car-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+/* .img-container {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -123,13 +128,21 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
 .tesla {
     display: block;
     text-align: center;
+} */
+figure img {
+    width: 350px;
+    height: 250px;
+  }
+
+figure figcaption {
+    text-align: center;
 }
 .quote-container {
     background-color: #E5E7EB;
     padding: 100px 50px;
 }
 .quote {
-    width: 500px;
+    width: 1500px;
     height: auto;
     margin: 0 auto;
     position: relative;
@@ -143,7 +156,7 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
 .cta {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 900px;
     height: auto;
     margin: 0 auto;
     position: relative;
