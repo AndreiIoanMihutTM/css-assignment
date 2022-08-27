@@ -145,3 +145,23 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     display: block;
     text-align: center;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    /* text-align: center; */
+    padding: 100px 50px;
+}
+
+.quote {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote :last-child {
+    text-align: right;
+    font-weight: 900;
+}
