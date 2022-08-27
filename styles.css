@@ -1,0 +1,107 @@
+/* 
+Hero, footer bg-col: #1F2937
+Hero main text: 48px 900 #F9FAF8
+Hero secondary and link text: 18px #E5E7EB
+Header Logo text: 24px #F9FAF8
+Button and call to action: #3882F6
+Information header: 36px 900 #1F2937
+Quote section: bg color #E5E7EB 36px light italic #1F2937
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Robot", sans-serif;
+}
+
+@font-face {
+    font-family: "Robot";
+    src: url(./fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Robot";
+    src: url(./fonts/Roboto-ThinItalic.ttf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Robot";
+    src: url(./fonts/Roboto-Black.ttf) format('truetype');
+    font-weight: 900;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.logo {
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 150px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-links-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    padding-right: 200px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.nav-links-list a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+.main-left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding-right: 50px;
+}
+
+.main-left p {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+    padding-right: 50px;
+    padding-bottom: 24px;
+}
+
+.hero-main-img {
+    padding-right: 200px;
+}
+
+.hero-main-img img {
+    width: 400px;
+    height: auto;
+}
+
+.hero-main-btn {
+    background-color: #3882F6;
+    border-style: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.hero-main-btn a {
+    text-decoration: none;
+    color: #E5E7EB
+}
