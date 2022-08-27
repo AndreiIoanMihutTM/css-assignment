@@ -153,6 +153,13 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     margin-top: 70px;
     margin-bottom: 70px;
 }
+.cta-p-one {
+    font-size: 18px;
+    font-weight: 600;
+}
+.cta-p-two {
+    font-size: 14px;
+}
 .cta-btn {
     background-color: #3882F6;
     border-style: none;
