@@ -105,3 +105,43 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     text-decoration: none;
     color: #E5E7EB
 }
+
+.our-brands h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.img-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.img-container img {
+    width: auto;
+    height: 70px;
+}
+
+.audi {
+    display: block;
+    text-align: center;
+}
+
+.bmw {
+    display: block;
+    text-align: center;
+}
+
+.mercedes {
+    display: block;
+    text-align: center;
+}
+
+.tesla {
+    display: block;
+    text-align: center;
+}
