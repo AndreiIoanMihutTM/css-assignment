@@ -13,31 +13,26 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     box-sizing: border-box;
     font-family: "Robot", sans-serif;
 }
-
 @font-face {
     font-family: "Robot";
     src: url(./fonts/Roboto-Regular.ttf) format('truetype');
     font-weight: normal;
 }
-
 @font-face {
     font-family: "Robot";
     src: url(./fonts/Roboto-ThinItalic.ttf) format('truetype');
     font-weight: 300;
 }
-
 @font-face {
     font-family: "Robot";
     src: url(./fonts/Roboto-Black.ttf) format('truetype');
     font-weight: 900;
 }
-
 .nav {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
 }
-
 .logo {
     padding-left: 200px;
     padding-top: 15px;
@@ -45,7 +40,6 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     font-size: 24px;
     color: #F9FAF8;
 }
-
 .nav-links-list {
     display: flex;
     justify-content: space-between;
@@ -55,12 +49,10 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     padding-top: 15px;
     font-size: 18px;
 }
-
 .nav-links-list a {
     text-decoration: none;
     color: #E5E7EB;
 }
-
 .hero-main {
     background-color: #1F2937;
     display: flex;
@@ -68,14 +60,12 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     padding-left: 200px;
     padding-bottom: 100px;
 }
-
 .main-left h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
     padding-right: 50px;
 }
-
 .main-left p {
     color: #E5E7EB;
     font-size: 18px;
@@ -83,16 +73,13 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     padding-right: 50px;
     padding-bottom: 24px;
 }
-
 .hero-main-img {
     padding-right: 200px;
 }
-
 .hero-main-img img {
     width: 400px;
     height: auto;
 }
-
 .hero-main-btn {
     background-color: #3882F6;
     border-style: none;
@@ -100,12 +87,10 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     padding: 10px 20px;
     border-radius: 10px;
 }
-
 .hero-main-btn a {
     text-decoration: none;
     color: #E5E7EB
 }
-
 .our-brands h2 {
     font-size: 36px;
     font-weight: 900;
@@ -113,45 +98,36 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     text-align: center;
     padding: 20px 0;
 }
-
 .img-container {
     display: flex;
     gap: 20px;
     justify-content: center;
     padding-bottom: 48px;
 }
-
 .img-container img {
     width: auto;
     height: 70px;
 }
-
 .audi {
     display: block;
     text-align: center;
 }
-
 .bmw {
     display: block;
     text-align: center;
 }
-
 .mercedes {
     display: block;
     text-align: center;
 }
-
 .tesla {
     display: block;
     text-align: center;
 }
-
 .quote-container {
     background-color: #E5E7EB;
-    /* text-align: center; */
     padding: 100px 50px;
 }
-
 .quote {
     width: 500px;
     height: auto;
@@ -160,8 +136,40 @@ Quote section: bg color #E5E7EB 36px light italic #1F2937
     font-size: 36px;
     font-weight: 300;
 }
-
 .quote :last-child {
     text-align: right;
     font-weight: 900;
+}
+.cta {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 60px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.cta-btn {
+    background-color: #3882F6;
+    border-style: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.cta-btn a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 8px;
+    text-align: center;
+    padding: 20px 0;
 }
